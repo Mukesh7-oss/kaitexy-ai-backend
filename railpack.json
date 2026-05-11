@@ -1,7 +1,14 @@
 {
-  "$schema": "https://railpack.com/schema.json",
-  "packages": {
-    "apt": [
+  "buildAptPackages": [
+    "libglib2.0-0",
+    "libsm6",
+    "libxrender1",
+    "libxext6",
+    "libgl1",
+    "libxcb1"
+  ],
+  "deploy": {
+    "aptPackages": [
       "libglib2.0-0",
       "libsm6",
       "libxrender1",
