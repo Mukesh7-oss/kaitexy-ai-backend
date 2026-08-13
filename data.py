@@ -4,7 +4,7 @@ import numpy as np
 import os
 
 
-label = "no"    
+label = "stop"    
 samples_to_collect = 2000
 save_dir = f"dataset/{label}"
 
