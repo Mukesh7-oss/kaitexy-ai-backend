@@ -15,29 +15,19 @@ import mediapipe as mp
 # CONFIG
 # =====================================================
 
-MODEL_PATH = "model/model_new.pt"
+MODEL_PATH = "model/sign_model.pt"
 
 LABELS = [
-    "I love you",
-    "again",
-    "bye",
-    "drink",
-    "find",
-    "good",
     "hello",
-    "help",
-    "hurt",
-    "more",
-    "no",
-    "open",
     "please",
-    "restroom",
-    "same",
+    "yes",
+    "thankyou",
     "sorry",
-    "stop",
-    "thank you",
-    "which",
-    "yes"
+    "no",
+    "i love you",
+    "help",
+    "good",
+    "bye"
 ]
 
 INPUT_SIZE = 63
